@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blogging Site</title>
-</head>
-<body>
-   This is the landing page of the blogging site 
-</body>
-</html>
+{% extends "navbar.html" %}
+{% block title %} Landing Page {% endblock %}
+
+{% block content %}
+<h2 class="mt-4 mx-5">This is the landing page of my blogging site</h2>
+{% endblock %}
